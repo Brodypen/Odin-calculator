@@ -1,6 +1,5 @@
 :root {
     --operationColor: #ff7d00;
-    --text-Color: #ffecd1;
     --lighten: #65afff;
 }
 html {
@@ -32,4 +31,21 @@ footer {
 }
 .middle {
     flex-grow: 1;
+    display: flex;
+    background-color: #001524;
+}
+.calculator {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 5vh 0;
+    background-color: #0b3b49;
+    width: 20%;
+    margin: auto auto;
+}
+.screen {
+    grid-column: 1/ span 3;
+    background-color: #ffecd1;
+    text-align: right;
 }
